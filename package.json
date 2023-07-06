@@ -1,0 +1,27 @@
+{
+  "name": "split-pg-sql",
+  "version": "1.0.0",
+  "description": "split postgres sql queries",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "rm -fr ./dist && tsc -p tsconfig.json",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luania/split-pg-sql.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luania/split-pg-sql/issues"
+  },
+  "homepage": "https://github.com/luania/split-pg-sql#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "jest": "^29.6.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  }
+}
